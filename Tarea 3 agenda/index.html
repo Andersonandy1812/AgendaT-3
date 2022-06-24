@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+</head>
+
+<body>
+
+    
+    <div class="contenedor">
+        <form action="Server">
+            <fieldset id="formulario" name="formulario">
+                <h1>agenda</h1>
+                <label for="Nombre">Nombre: </label>
+                <input type="text" id="Nombre" name="Nombre" placeholder="Nombre" /><br />
+                <label for="apellido">Apellido: </label>
+                <input type="text" id="apellido" name="apellido" placeholder="Apellido" /><br />
+                <label for="numero">Telefono: </label>
+                <input type="tel" id="numero" name="numero" placeholder="numero telefonico"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" /><br />
+                <input type="submit" value="Enviar" />
+            </fieldset>
+    </div>
+    </form>
+    <div class="Lista">
+        <div class="tarea">
+            <h3>nombre</h3>
+            <p>apellido</p>
+            <p>Telefono</p>
+            <span class="material-symbols">
+                delete
+                </span>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
